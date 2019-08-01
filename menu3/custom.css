@@ -1,0 +1,337 @@
+.cid-rxOPRBwmfO {
+    background-color: rgb(34, 34, 34);
+    color: #fff;
+}
+
+.cid-rxOPRBwmfO H2 {
+    color: #fff;
+}
+
+.cid-rxOPRBwmfO .mbr-section-subtitle {
+    color: #fff;
+}
+.form-control-label {
+    color: #fff;
+}
+
+.panel-grid {
+    vertical-align: baseline;
+    -webkit-align-items: flex-start;
+    align-items: flex-start;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: nowrap;
+    -ms-justify-content: center;
+    justify-content: center;
+    /*margin: 0 35px 35px 35px;*/
+}
+
+.decoration {
+    border-top: 1px solid #EEE;
+    position: relative;
+    height: 1px;
+    margin: 40px 60px 40px 60px;
+}
+
+.tituloVermelho, .entry-content h1, h1, article.post .entry-header h1.entry-title a, article.page .entry-header h1.entry-title a {
+  	line-height: 45px;
+    color: #a80202; 
+    font-family: Poppins; 
+    font-size: 30px;
+		font-weight: 600;
+  	text-align: center;
+}
+.cinza {
+		color: #777; 
+}
+.subTitulo, .entry-content h3, h3 {
+  	font-family: Poppins; 
+		font-size: 16px;
+  	font-weight: 400;
+    letter-spacing: normal;
+    text-align: center;
+  	color: #777;
+  	line-height: 34px;
+}
+.divHr{
+		margin-left: auto;
+    margin-right: auto;
+		margin-top: 20px;
+  	margin-bottom: 20px;
+  	content: '';
+    display: block;
+    width: 50px;
+    height: 6px;
+    background: #e2e2e2;
+		border-radius: 3px;
+  	
+}
+
+/* STYLE DAS INFOBOX */
+
+.infBoxContainer {
+    position: relative;
+    width: 400px;
+    margin: 5px;
+  }
+  
+  .infBoxImagem {
+    display: block;
+    width: 400px;
+	height: 350px;
+  }
+  
+  .infBoxOverlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(168, 2, 2, 0.863);
+    overflow: hidden;
+    width: 400px;
+    height: 70px;
+    transition: .5s ease;
+  }
+  
+  .infBoxContainer:hover .infBoxOverlay {
+    height: 100%;
+  }
+  
+  .infBoxTexto {
+    word-wrap: break-word;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 13px;
+    position: absolute;
+    overflow: hidden;
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    padding: 100px 15px 0 15px;
+    line-height: 24px;
+    width: 400px;
+  }
+
+.infBoxLeiaMais  {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  position: absolute;
+  overflow: hidden;
+  top: 330px;
+  left: 13%;
+  color: white;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+  .infBoxTitulo {
+    font-family: 'Poppins', sans-serif;
+    padding-left: 20px;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: -0.32px;
+    line-height: 80px;
+    color: white;
+  }
+
+  .infBoxTitulo img {
+    margin: 0 10px 10px 0;
+    width: 45px; 
+    height: auto;
+    vertical-align: middle;
+  }
+@media(max-width: 1280px) {
+    .infBoxContainer {
+        width: 350px;
+        height: 250px;
+        margin: 15px;
+    }
+
+    .infBoxImagem {
+        width: 350px;
+        height: 250px;
+    }
+
+    .infBoxOverlay {
+        width: 350px;
+    }
+
+    .infBoxTexto {
+        width: 350px;
+    }
+
+    .infBoxLeiaMais {
+        top: 200px;
+    }
+
+}
+
+@media(max-width: 1100px) {
+    .infBoxContainer {
+        width: 300px;
+        height: 200px;
+        margin: 0;
+    }
+
+    .infBoxImagem {
+        width: 300px;
+        height: 200px;
+    }
+
+    .infBoxOverlay {
+        width: 300px;
+    }
+
+    .infBoxTexto {
+        width: 300px;
+    }
+
+    .infBoxLeiaMais {
+        top: 180px;
+    }
+
+}
+
+
+@media(max-width: 400px) {
+  .infBoxImagem {
+    display: none;
+  }
+  .infBoxContainer {
+    position: relative;
+    width: 100%;
+    height: 250px;
+  }
+  .infBoxOverlay {
+    width: 100%;
+    height: 250px;
+  }
+
+  .infBoxTexto {
+    width: 90%;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 3.5vw;
+		word-break: break-word;
+  }
+  
+  .infBoxTitulo {
+    font-size: 4vw;
+  }
+  
+  .infBoxLeiaMais  {
+  	left: 17%;
+  }
+}
+
+
+/* STYLE DAS BLANKBOX */
+
+
+.L1 {
+    height: 420px;
+}
+.L2 {
+    height: 300px;
+}
+.blankBoxContainer {
+    position: relative;
+    width: 400px;
+    background-color: #ffffff;
+    margin: 0 15px 10px;
+  }
+  
+  .blankBoxContainer:hover { background-color: #e7e7e7; }
+  
+  .blankBoxOverlay {
+    position: absolute;
+    top: 25px;
+    left: 15px;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0);
+    width: 60px;
+    height: 60px;
+    transition: .5s ease;
+  
+  }
+  
+  .blankBoxContainer:hover .blankBoxOverlay {
+    top: 65px;
+  }
+  
+  .blankBoxBar {
+    display: block;
+    position: absolute;
+    top: 23px;
+    left: 42px;
+    right: 0;
+    background-color: rgba(185, 185, 185, 0.576);
+    width: 7px;
+    height: 0px;
+    transition: .5s ease;
+  
+  }
+  
+  .blankBoxContainer:hover .blankBoxBar {
+      height: 35px;
+      display: block;
+    }
+    
+  
+  .blankBoxTitulo {
+      color: #a80202;
+      margin-left: 100px;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 700;
+      font-size: 18px;
+      letter-spacing: -0.32px;
+      line-height: 65px;
+  }
+  
+  
+  .blankBoxTexto {
+    word-wrap: break-word;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-size: 13px;
+    position: absolute;
+    overflow: hidden;
+    top: 50px;
+    left: 100px;
+    line-height: 24px;
+    margin-right: 10px;
+    
+  }
+  
+  .blankBoxTituloUp {
+    color: #a80202;
+      margin-left: 100px;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 700;
+      font-size: 24px;
+      letter-spacing: -0.32px;
+      line-height: 65px;
+  }
+  
+@media(max-width: 1280px) {
+      .blankBoxContainer {
+          width: 350px;
+          margin: 0 5px 5px;
+      }
+}
+
+  @media(max-width: 700px) {
+    .blankBoxContainer {
+        width: 100%;
+    }
+    .blankBoxTexto {
+        font-size:3vw;
+    }
+    .blankBoxTitulo {
+        font-size:3vw;
+    }
+}
