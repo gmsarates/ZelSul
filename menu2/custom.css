@@ -1,3 +1,7 @@
+.panel-grid-cell{
+  margin: 10px;
+}
+
 .mbr-gallery .mbr-gallery-item--p4 {
   cursor: default;
 }
@@ -345,5 +349,29 @@
 }
 .panel-grid {
   display: block;
+}
+}
+
+.panel-row-style {
+  display: flex;
+  align-items: flex-start;
+}
+
+.formContato {
+  width: 60%;
+}
+
+@media(max-width: 750px) {
+  .panel-row-style {
+    display: block;
+  }
+  
+.formContato {
+  width: 100%;
+}
+
+.panel-grid-cell{
+  margin: 0px;
+  padding: 10px;
 }
 }
