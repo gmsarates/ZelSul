@@ -1,3 +1,11 @@
+.mbr-gallery .mbr-gallery-item--p4 {
+  cursor: default;
+}
+
+.cid-rxPD0YJeCy .mbr-gallery-item > div::before {
+  display: none;
+}
+
 .cid-rxOPRBwmfO {
     background-color: rgb(34, 34, 34);
     color: #fff;
@@ -143,90 +151,6 @@
     height: auto;
     vertical-align: middle;
   }
-@media(max-width: 1280px) {
-    .infBoxContainer {
-        width: 350px;
-        height: 250px;
-        margin: 15px;
-    }
-
-    .infBoxImagem {
-        width: 350px;
-        height: 250px;
-    }
-
-    .infBoxOverlay {
-        width: 350px;
-    }
-
-    .infBoxTexto {
-        width: 350px;
-    }
-
-    .infBoxLeiaMais {
-        top: 200px;
-    }
-
-}
-
-@media(max-width: 1100px) {
-    .infBoxContainer {
-        width: 300px;
-        height: 200px;
-        margin: 0;
-    }
-
-    .infBoxImagem {
-        width: 300px;
-        height: 200px;
-    }
-
-    .infBoxOverlay {
-        width: 300px;
-    }
-
-    .infBoxTexto {
-        width: 300px;
-    }
-
-    .infBoxLeiaMais {
-        top: 180px;
-    }
-
-}
-
-
-@media(max-width: 400px) {
-  .infBoxImagem {
-    display: none;
-  }
-  .infBoxContainer {
-    position: relative;
-    width: 100%;
-    height: 250px;
-  }
-  .infBoxOverlay {
-    width: 100%;
-    height: 250px;
-  }
-
-  .infBoxTexto {
-    width: 90%;
-    padding-left: 20px;
-    padding-right: 20px;
-    font-size: 3.5vw;
-		word-break: break-word;
-  }
-  
-  .infBoxTitulo {
-    font-size: 4vw;
-  }
-  
-  .infBoxLeiaMais  {
-  	left: 17%;
-  }
-}
-
 
 /* STYLE DAS BLANKBOX */
 
@@ -334,4 +258,92 @@
     .blankBoxTitulo {
         font-size:3vw;
     }
+}
+@media(max-width: 1280px) {
+  .infBoxContainer {
+      width: 350px;
+      height: 250px;
+      margin: 15px;
+  }
+
+  .infBoxImagem {
+      width: 350px;
+      height: 250px;
+  }
+
+  .infBoxOverlay {
+      width: 350px;
+  }
+
+  .infBoxTexto {
+      width: 350px;
+  }
+
+  .infBoxLeiaMais {
+      top: 200px;
+  }
+
+}
+
+@media(max-width: 1100px) {
+  .infBoxContainer {
+      width: 300px;
+      height: 200px;
+      margin: 0;
+  }
+
+  .infBoxImagem {
+      width: 300px;
+      height: 200px;
+  }
+
+  .infBoxOverlay {
+      width: 300px;
+  }
+
+  .infBoxTexto {
+      width: 300px;
+  }
+
+  .infBoxLeiaMais {
+      top: 180px;
+  }
+
+}
+
+
+@media(max-width: 900px) {
+.infBoxImagem {
+  display: none;
+}
+.infBoxContainer {
+  position: relative;
+  width: 100%;
+  height: 250px;
+  margin-top: 5px;
+}
+.infBoxOverlay {
+  width: 100%;
+  height: 250px;
+}
+
+.infBoxTexto {
+  width: 90%;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 3.5vw;
+  word-break: break-word;
+}
+
+.infBoxTitulo {
+  font-size: 4vw;
+}
+
+.infBoxLeiaMais  {
+  left: 17%;
+  font-size: 3vw;
+}
+.panel-grid {
+  display: block;
+}
 }

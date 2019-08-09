@@ -1,0 +1,242 @@
+@font-face {
+	font-family: '! PEPSI !';
+	font-style: normal;
+	font-weight: normal;
+	src: local('! PEPSI !'), url('assets/PEPSI_pl.woff') format('woff');
+}
+
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+#header {
+    width: 500px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 0 0 0 0;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: baseline;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: nowrap;
+    -ms-justify-content: center;
+}
+
+.hTitulo {
+    font-family: '! PEPSI !';
+    font-size: 68pt;
+    line-height: 70px;
+}
+
+.hSubtitulo {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16pt;
+    line-height: 20px;
+}
+
+.textHeader {
+  width: 100%; 
+  margin-left: 20px;
+}
+
+.imgHeader {
+  width: 25%;
+  display: block;
+}
+
+/* lists */
+.list-full, .list-full li,
+.list-auto, .list-auto li { width: 100%; float: left; display: block; position: relative; }
+.list-auto, .list-auto li { width: auto; }
+
+/* floats */
+.float-l { float: left; }
+.float-r { float: right; }
+
+header {
+  min-height: 39px;
+  position: absolute;
+  right: 0;
+  left: 0;
+  background: transparent url(images/bgOFF1.png) repeat-x top left;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  border-top: 4px solid #B30000;
+}
+
+header h1 {
+  padding: 10px 0 0 10px;
+}
+
+header h1 a {
+  color: #333;
+}
+
+header ul {
+  padding: 0 10px 0 0;
+}
+/* 
+header li {
+  height: 39px;
+} */
+
+header li:first-child {
+  border: none;
+}
+
+header li a {
+  display: block;
+  padding: 5px 20px 0 20px;
+  color: #666;
+  font-size: 11px;
+  line-height: 30px;
+  text-decoration: none;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+  background:transparent url(images/bgDIVIDER1.png) no-repeat top right;
+}
+
+header li a:hover, header li a.current {
+  color: #B30000;
+  height: 39px;
+  background:#fff url(images/bgON1.png) no-repeat top right;
+}
+
+input#control-nav {
+  visibility: hidden;
+  position: absolute;
+  left: -9999px;
+  opacity: 0;
+}
+
+@media screen and (max-width: 767px) {
+  #header {
+    width: 100%;
+    height: 100px;
+}
+
+.hTitulo {
+    font-family: '! PEPSI !';
+    font-size: 4em;
+}
+
+.hSubtitulo {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+}
+
+#header img {
+  width: 100px;
+}
+
+.textHeader {
+  width: auto;
+  margin-left: 5px;
+}
+
+
+  header nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 250px;
+    border-left: 1px solid #ccc;
+    background: #fff;
+    overflow-x: auto;
+    z-index: 2;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+    -webkit-transform: translate(100%, 0);
+    -ms-transform: translate(100%, 0);
+    transform: translate(100%, 0);
+  }
+
+  header ul.list-auto {
+    padding: 0;
+  }
+
+  header ul.list-auto li {
+    width: 100%;
+    border: solid #ccc;
+    border-width: 0 0 1px;
+  }
+
+  header li a {
+    padding: 15px 10px;
+    background:transparent;
+  }
+
+  header li a:hover, header li a.current {
+    background-color: #ccc;
+    height: auto;
+  }
+
+  .control-nav { /* label icon */
+    position: absolute;
+    color: #B30000;
+    right: 10px;
+    top: 7px;
+    display: block;
+    width: 30px;
+    padding: 5px 0;
+    border: solid #B30000;
+    border-width: 3px 0;
+    z-index: 2;
+    cursor: pointer;
+  }
+
+  .control-nav:before {
+    content: "";
+    display: block;
+    height: 3px;
+    background: #B30000;
+  }
+
+  .control-nav-close {
+    position: fixed; /* label layer */
+    right: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    display: block;
+    z-index: 1;
+    background: rgba(0,0,0,0.4);
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+    -webkit-transform: translate(100%, 0);
+    -ms-transform: translate(100%, 0);
+    transform: translate(100%, 0);
+  }
+
+  /* checked nav */
+  input#control-nav {
+    display: block;
+  }
+
+  input#control-nav:focus ~ .control-nav {
+    border-color: #000;
+    box-shadow: 0px 0px 9px rgba(0,0,0,0.3);
+  }
+
+  input#control-nav:focus ~ .control-nav:before {
+    background: #000;
+  }
+
+  input#control-nav:checked ~ nav,
+  input#control-nav:checked ~ .control-nav-close {
+    -webkit-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+
+}
+
+@media screen and (max-width: 360px) {
+#header .imgHeader {
+  display: none;
+}
+
+}

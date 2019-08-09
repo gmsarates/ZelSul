@@ -17,11 +17,56 @@
   <link rel="stylesheet" href="assets/socicon/css/styles.css">
   <link rel="stylesheet" href="assets/theme/css/style.css">
   <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+  <link rel="stylesheet" href="custom.css" type="text/css">
+  <link rel="stylesheet" href="menu.css" type="text/css">
   
   
-  
-</head>
-<body>
+  <script type="text/javascript">
+    function adjustPosition()  {
+          var position = window.scrollY;
+          var div = document.getElementsByTagName("header")[0];
+          var newPosition = 120 - parseInt(position);
+          var w = window.innerWidth;
+          if (newPosition <= 0) {
+              //div.style.backgroundColor = "rgba(0, 0, 0, 0.314)";
+              div.setAttribute("style", "position: fixed; top:0;");
+          } else {
+              var top = 150;
+              if (w < 767) {
+                  top = 100;
+              }
+              div.setAttribute("style", "position: absolute; top: " + top + "px;");
+          }
+      }
+    </script>
+    
+  </head>
+  <body onscroll="adjustPosition()  ">
+          <div id='header' class='center'>
+              <div class="imgHeader">
+                  <img src="images/better_logo.png" width="150px">
+              </div>
+              <div class="textHeader">
+                  <span class='hTitulo'>ZELSUL</span><br>
+                  <span class='hSubtitulo'>Comodidade ao seu alcance</span>
+              </div>
+          </div>
+          <header>
+                               
+                  <input type="checkbox" id="control-nav" />
+                  <label for="control-nav" class="control-nav"></label>
+                  <label for="control-nav" class="control-nav-close"></label>
+            
+                  <nav class="float-r">
+                    <ul class="list-auto">
+                      <li><a href="index.html" title="Início"><span>Início</span></a></li>
+                      <li><a href="sobrenos.html" title="Sobre nos" class="current"><span>Sobre nós</span></a></li>
+                      <li><a href="servicos.html" title="Servicos"><span>Serviços</span></a></li>
+                      <li><a href="bairroseguro.html" title="Bairro Seguro"><span>Bairro Seguro</span></a></li>
+                      <li><a href="#" title="Contato"><span>Contato</span></a></li>
+                    </ul>
+                  </nav>
+                </header>
   <section class="cid-rxPx77Gvxj" id="image2-z">
 
     
@@ -299,6 +344,6 @@
   <script src="assets/theme/js/script.js"></script>
   
   
- <div id="scrollToTop" class="scrollToTop mbr-arrow-up"><a style="text-align: center;"><i class="mbr-arrow-up-icon mbr-arrow-up-icon-cm cm-icon cm-icon-smallarrow-up"></i></a></div>
+ <div id="scrollToTop" class="scrollToTop mbr-arrow-up"><a style="text-align: center;"><i class="mbri-up"></i></a></div>
   </body>
 </html>
