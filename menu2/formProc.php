@@ -101,7 +101,7 @@
       $message .= "<tr><td>Mensagem</td><td>" . $mensagem . "</td></tr>";
       $message .= "</table><div style='width: 500px; text-align: right; margin-top: 3px;'>";
       $message .= "<span style='font-size: 8px; font-family: Arial;'> © Copyright 2019 <a href='https://www.facebook.com/saratesgb'>Gabriel Sarates</a></span>";
-      $message .= "</div></div>"
+      $message .= "</div></div>";
       $message .= '</body></html>';
 
       // To send HTML mail, the Content-type header must be set
