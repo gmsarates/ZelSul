@@ -1,3 +1,11 @@
+.bairroAlert {
+  padding: 15px 10px;
+}
+
+.bairroAlert button {
+  padding-left: 5px;
+}
+
 .panel-grid-cell{
   margin: 10px;
 }
@@ -374,14 +382,4 @@
   margin: 0px;
   padding: 10px;
 }
-}
-
-@media(max-width: 350px) {
-  .alert {
-    padding: 15px 10px;
-  }
-
-  .alert button {
-    padding-left: 5px;
-  }
 }
