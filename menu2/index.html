@@ -38,7 +38,7 @@
 			div.setAttribute("style", "position: absolute; top: " + top + "px;");
 		}
     }
-    
+
     function visita() {
         var input = document.getElementsByName("servico")[0];
         input.value = "Agendar uma visita";
@@ -266,16 +266,12 @@
             </div>
         </div>
     </div>
-    <div class="container">
+    <div class="container" id="formNovo">
         <div class="row justify-content-center">
             <div class="media-container-column col-lg-8">
                 <!---Formbuilder Form--->
-                <form action="formProc.php" method="POST" class="mbr-form form-with-styler" data-form-title="ZelSul - Contato"><input type="hidden" name="email" data-form-email="true">
-                    <div class="row">
-                        <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Obrigado. Entraremos em contato em breve.</div>
-                        <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">
-                        </div>
-                    </div>
+                <form id="formContato" action="formProc.php" method="POST" class="mbr-form form-with-styler" data-form-title="ZelSul - Contato">
+                    <input type="hidden" id="pagina" name="pagina" value="inicio">
                     <div class="dragArea row">
                         <div class="col-md-4  form-group" data-for="name">
                             <label for="name-form1-a" class="form-control-label mbr-fonts-style display-7">Seu nome</label>
