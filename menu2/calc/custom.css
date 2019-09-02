@@ -1,0 +1,49 @@
+.gbTransparente {
+  background-color: rgba(0,0,0,0)!important;
+}
+
+html,body {
+  height: 100%;
+}
+
+#fullHeight {
+  height: 100%;
+  background: rgb(255, 255, 255);
+}
+
+.increase {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  vertical-align: middle;
+  background: rgb(171, 0, 0);
+  border-width: 1px;
+  border-color: rgb(0, 0, 0);
+  border-style: solid;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  font-size: 20px;
+  line-height: 12px;
+  border-radius: 0;
+  text-shadow: none;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  vertical-align: middle;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 1px;
+}
+
+#numQuantidade {
+  background-color: #642222;
+  border-color: rgb(0, 0, 0);
+  font-size: 30px;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
