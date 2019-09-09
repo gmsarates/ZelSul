@@ -246,12 +246,12 @@ body {
   background-color: #617479 !important;
   border-color: #617479 !important;
 }
-.btn-danger,
+/* .btn-danger,
 .btn-danger:active {
   background-color: #b1a374 !important;
   border-color: #b1a374 !important;
   color: #ffffff !important;
-}
+} 
 .btn-danger:hover,
 .btn-danger:focus,
 .btn-danger.focus,
@@ -265,7 +265,7 @@ body {
   color: #ffffff !important;
   background-color: #8b7d4e !important;
   border-color: #8b7d4e !important;
-}
+} */
 .btn-white {
   color: #333333 !important;
 }
@@ -478,9 +478,9 @@ body {
 .text-warning {
   color: #879a9f !important;
 }
-.text-danger {
+/* .text-danger {
   color: #b1a374 !important;
-}
+} */
 .text-white {
   color: #ffffff !important;
 }
