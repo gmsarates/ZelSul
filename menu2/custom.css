@@ -230,6 +230,7 @@
   
   .blankBoxTexto {
     word-wrap: break-word;
+    font-weight: 400;
     text-align: left;
     font-family: 'Poppins', sans-serif;
     color: black;
