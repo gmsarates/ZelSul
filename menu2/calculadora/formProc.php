@@ -14,7 +14,7 @@ $cameras = $_POST['qtCameras'];
 $controles = $_POST['qtControles'];
 $msg = $_POST['hidMsg'];
 
-$sendTo = 'dalvan@zelsul.com.br';
+$sendTo = 'contato@zelsul.com.br';
 
   $from = $email;
   $subject = 'ORÇAMENTO ZELSUL - ' . strtoupper($tmpNome);
